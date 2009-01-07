@@ -53,10 +53,10 @@ a:active {
       <?php
 
 //set value of latest pix published by each author
-$madmax = 81;
-$admax = 63;
+$madmax = 83;
+$admax = 68;
 $crismax = 13;
-$manmax = 306;
+$manmax = 308;
 
 //skip the multiple pix created in madelou's folder by reloading
 //$m1 = floor($madmax / 3);
@@ -82,18 +82,18 @@ $manuel1 = $manuel1 * 3 + 2;
 
 print <<< HERE
 
-<img src="http://vozmob.virishi.net/sites/default/files/image/21/image_$madelou1.jpg" width="160" height="120" border="0" />
-<img src="http://vozmob.virishi.net/sites/default/files/image/27/image_$adolfo1.jpg" width="160" height="120" border="0" />
-<img src="http://vozmob.virishi.net/sites/default/files/image/21/image_$madelou2.jpg" width="160" height="120" border="0" />
+<a href="http://vozmob.virishi.net/en/blog/21"><img src="http://vozmob.virishi.net/sites/default/files/image/21/image_$madelou1.jpg" width="160" height="120" border="0" /></a>
+<a href="http://vozmob.virishi.net/en/blog/27"><img src="http://vozmob.virishi.net/sites/default/files/image/27/image_$adolfo1.jpg" width="160" height="120" border="0" /></a>
+<a href="http://vozmob.virishi.net/en/blog/21"><img src="http://vozmob.virishi.net/sites/default/files/image/21/image_$madelou2.jpg" width="160" height="120" border="0" /></a>
 <br />
-<img src="http://vozmob.virishi.net/sites/default/files/image/28/image_$manuel1.jpg" width="160"  border="0" />
+<a href="http://vozmob.virishi.net/en/blog/28"><img src="http://vozmob.virishi.net/sites/default/files/image/28/image_$manuel1.jpg" width="160"  border="0" /></a>
 
 <a href="http://vozmob.virishi.net/"><img src="http://farm4.static.flickr.com/3201/3022614585_5065ae71a6_m.jpg" width="160" vspace="20" border="0" /></a>
-<img src="http://vozmob.virishi.net/sites/default/files/image/28/image_$manuel2.jpg" width="160"  border="0" />
+<a href="http://vozmob.virishi.net/en/blog/28"><img src="http://vozmob.virishi.net/sites/default/files/image/28/image_$manuel2.jpg" width="160"  border="0" /></a>
 <br />
-<img src="http://vozmob.virishi.net/sites/default/files/image/27/image_$adolfo2.jpg" width="160" height="120" border="0" />
-<img src="http://vozmob.virishi.net/sites/default/files/image/21/image_$madelou3.jpg" width="160" height="120" border="0" />
-<img src="http://vozmob.virishi.net/sites/default/files/image/34/image_$crispin1.jpg" width="160" height="120" border="0" />
+<a href="http://vozmob.virishi.net/en/blog/27"><img src="http://vozmob.virishi.net/sites/default/files/image/27/image_$adolfo2.jpg" width="160" height="120" border="0" /></a>
+<a href="http://vozmob.virishi.net/en/blog/21"><img src="http://vozmob.virishi.net/sites/default/files/image/21/image_$madelou3.jpg" width="160" height="120" border="0" /></a>
+<a href="http://vozmob.virishi.net/en/blog/34"><img src="http://vozmob.virishi.net/sites/default/files/image/34/image_$crispin1.jpg" width="160" height="120" border="0" /></a>
 
 HERE;
 
